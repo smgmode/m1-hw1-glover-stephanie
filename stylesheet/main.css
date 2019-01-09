@@ -10,6 +10,7 @@ header {
 	position: fixed;
 	left: 0;
 	right: 0;
+  display: inline-block;
 }
 
 header nav ul li {
@@ -17,4 +18,8 @@ header nav ul li {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.938em;;
 	font-weight: bold;
+}
+
+body {
+  background-color: aqua;
 }
