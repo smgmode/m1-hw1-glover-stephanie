@@ -7,10 +7,7 @@
 header {
 	background: beige;
 	padding: 10px 0;
-	position: fixed;
-	left: 0;
-	right: 0;
-  display: inline-block;
+  position: relative;
 }
 
 header nav ul li {
@@ -22,4 +19,22 @@ header nav ul li {
 
 body {
   background-color: aqua;
+  text-align: center;
+}
+
+main, h3 {
+  font-style: italic;
+  box-shadow: 5px 10px;
+  padding-top: 300px;
+  animation: fadein 5s;
+}
+
+footer {
+  color: darkgreen;
+  padding: 600px 0px 0px 0px;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
